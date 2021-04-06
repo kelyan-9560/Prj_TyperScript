@@ -1,7 +1,7 @@
-class Pokemon {
-    name;
+export class Pokemon {
+    name: string;
 
-    constructor(name) {
+    constructor(name: string) {
         this.name = name;
     }
 }
